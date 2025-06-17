@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Gerenciar Tarefas</title>
+    <link rel="stylesheet" href="./GerenciarTarefa.css">
+</head>
+<body>
+    <div class="navbar">
+        <span class="logo">Gerenciamento de Tarefas</span>
+        <nav>
+             <a href="/web/Usuarios/CadastroUsuario.html">Cadastro de Usuários</a>
+            <a href="/web/Tarefas/CadastroTarefas.html">Cadastro de Tarefas</a>
+            <a href="/web/Gerenciar/GerenciarTarefa.html">Gerenciar Tarefas</a>
+        </nav>
+    </div>
+    <div class="container">
+        <h2>Tarefas</h2>
+        <div class="columns">
+            <div class="column">
+                <h3>A Fazer</h3>
+                <div class="card">
+                    <p><b>Descrição:</b> Descrição da tarefa de Alta Prioridade<br>
+                    <b>Setor:</b> Setor Y<br>
+                    <b>Prioridade:</b> Alta<br>
+                    <b>Vinculado a:</b> Usuário A</p>
+                    <div class="actions">
+                        <button>Editar</button>
+                        <button class="excluir">Excluir</button>
+                    </div>
+                    <div class="status">
+                        <input type="radio" name="status1" id="afazer1"><label for="afazer1">A fazer</label>
+                        <input type="radio" name="status1" id="fazendo1"><label for="fazendo1">Fazendo</label>
+                        <input type="radio" name="status1" id="pronto1"><label for="pronto1">Pronto</label>
+                    </div>
+                    <button class="alterar">Alterar Status</button>
+                </div>
+                <div class="card">
+                    <p><b>Descrição:</b> Descrição da tarefa 1<br>
+                    <b>Setor:</b> Setor J<br>
+                    <b>Prioridade:</b> Média<br>
+                    <b>Vinculado a:</b> Usuário B</p>
+                    <div class="actions">
+                        <button>Editar</button>
+                        <button class="excluir">Excluir</button>
+                    </div>
+                    <div class="status">
+                        <input type="radio" name="status2" id="afazer2"><label for="afazer2">A fazer</label>
+                        <input type="radio" name="status2" id="fazendo2"><label for="fazendo2">Fazendo</label>
+                        <input type="radio" name="status2" id="pronto2"><label for="pronto2">Pronto</label>
+                    </div>
+                    <button class="alterar">Alterar Status</button>
+                </div>
+            </div>
+            <div class="column">
+                <h3>Fazendo</h3>
+                <div class="card">
+                    <p><b>Descrição:</b> Descrição da tarefa de Baixa Prioridade<br>
+                    <b>Setor:</b> Setor F<br>
+                    <b>Prioridade:</b> Baixa<br>
+                    <b>Vinculado a:</b> Usuário C</p>
+                    <div class="actions">
+                        <button>Editar</button>
+                        <button class="excluir">Excluir</button>
+                    </div>
+                    <div class="status">
+                        <input type="radio" name="status3" id="afazer3"><label for="afazer3">A fazer</label>
+                        <input type="radio" name="status3" id="fazendo3"><label for="fazendo3">Fazendo</label>
+                        <input type="radio" name="status3" id="pronto3"><label for="pronto3">Pronto</label>
+                    </div>
+                    <button class="alterar">Alterar Status</button>
+                </div>
+            </div>
+            <div class="column">
+                <h3>Pronto</h3>
+                <div class="card">
+                    <p><b>Descrição:</b> Descrição da tarefa concluída<br>
+                    <b>Setor:</b> Setor H<br>
+                    <b>Prioridade:</b> Média<br>
+                    <b>Vinculado a:</b> Usuário D</p>
+                    <div class="actions">
+                        <button>Editar</button>
+                        <button class="excluir">Excluir</button>
+                    </div>
+                    <div class="status">
+                        <input type="radio" name="status4" id="afazer4"><label for="afazer4">A fazer</label>
+                        <input type="radio" name="status4" id="fazendo4"><label for="fazendo4">Fazendo</label>
+                        <input type="radio" name="status4" id="pronto4"><label for="pronto4">Pronto</label>
+                    </div>
+                    <button class="alterar">Alterar Status</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>

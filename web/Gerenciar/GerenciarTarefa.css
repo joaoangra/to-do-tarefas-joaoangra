@@ -1,0 +1,119 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background: #fff;
+}
+
+.navbar {
+    background: #0686fa;
+    color: #fff;
+    padding: 20px 0 20px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    font-size: 2em;
+    font-weight: bold;
+}
+
+nav {
+    margin-right: 40px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin-left: 30px;
+    font-size: 1.1em;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+.container {
+    margin: 30px 0 0 0;
+    padding-left: 10px;
+}
+
+h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.columns {
+    display: flex;
+    gap: 30px;
+    margin-top: 10px;
+}
+
+.column {
+    flex: 1;
+    min-width: 300px;
+}
+
+.column h3 {
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.card {
+    background: #fafafa;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    padding: 15px 15px 10px 15px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+}
+
+.card p {
+    margin: 0 0 10px 0;
+    font-size: 1em;
+}
+
+.actions {
+    margin-bottom: 10px;
+}
+
+.actions button {
+    background: #0686fa;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 6px 14px;
+    font-size: 1em;
+    margin-right: 6px;
+    cursor: pointer;
+}
+
+.actions .excluir {
+    background: #1976d2;
+}
+
+.status {
+    margin-bottom: 10px;
+}
+
+.status label {
+    margin-right: 15px;
+    margin-left: 3px;
+    font-size: 1em;
+}
+
+.alterar {
+    background: #0686fa;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 6px 14px;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+.footer {
+    text-align: center;
+    margin-top: 40px;
+    font-size: 1.5em;
+}

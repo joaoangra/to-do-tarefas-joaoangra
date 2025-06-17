@@ -1,0 +1,80 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background: #fff;
+}
+
+.navbar {
+    background: #0686fa;
+    color: #fff;
+    padding: 20px 0 20px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    font-size: 2em;
+    font-weight: bold;
+}
+
+nav {
+    margin-right: 40px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin-left: 30px;
+    font-size: 1.1em;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+.container {
+    margin: 40px 0 0 0;
+    padding-left: 0.5em;
+}
+
+h1 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.form-tarefa {
+    display: flex;
+    flex-direction: column;
+    width: 180px;
+    gap: 10px;
+}
+
+.form-tarefa label {
+    font-size: 1em;
+    margin-bottom: 2px;
+}
+
+.form-tarefa input,
+.form-tarefa select {
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 1em;
+}
+
+.form-tarefa button {
+    margin-top: 10px;
+    background: #0686fa;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 6px 12px;
+    font-size: 1em;
+    cursor: pointer;
+    width: 80px;
+}
+
+.form-tarefa button:hover {
+    background: #005bb5;
+}
