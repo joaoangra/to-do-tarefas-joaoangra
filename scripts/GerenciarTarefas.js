@@ -63,5 +63,29 @@ window.excluirTarefa = function(id) {
 };
 
 window.editarTarefa = function(id) {
-    alert("Função de edição pode ser implementada aqui.");
+    const tarefas = JSON.parse(localStorage.getItem("tarefas") || "[]");
+    const tarefa = tarefas.find(t => t.id === id);
+    if (!tarefa) return;
+
+    // Prompt para editar os campos
+    const novaDescricao = prompt("Editar descrição:", tarefa.descricao);
+    if (novaDescricao === null) return; // Cancelado
+
+    const novoSetor = prompt("Editar setor:", tarefa.setor);
+    if (novoSetor === null) return;
+
+    const novaPrioridade = prompt("Editar prioridade (Baixa, Média, Alta):", tarefa.prioridade);
+    if (novaPrioridade === null) return;
+
+    const novoUsuario = prompt("Editar usuário:", tarefa.usuario);
+    if (novoUsuario === null) return;
+
+    // Atualiza os campos
+    tarefa.descricao = novaDescricao;
+    tarefa.setor = novoSetor;
+    tarefa.prioridade = novaPrioridade;
+    tarefa.usuario = novoUsuario;
+
+    localStorage.setItem("tarefas", JSON.stringify(tarefas));
+    listarTarefas();
 };
